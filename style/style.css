@@ -220,6 +220,7 @@ div.button{
 
 .mini-button{
     width: 70px;
+    height: 30px;
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -231,4 +232,9 @@ div.button{
 button.lightblue{
     background-color: lightskyblue;
     color: white;
+}
+
+section.links i{
+    padding-top: 1rem;
+    padding-right: .5rem;
 }
