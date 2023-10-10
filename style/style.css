@@ -53,6 +53,7 @@ body{
 
 .column-small{
     width: 40%;
+    padding-left: 2rem;
 }
 
 .column-single{
@@ -214,14 +215,14 @@ div.button{
 
 .button{
     width: 200px;
-    height: 28px;
-    border-radius: 10px 10px 10px 10px;
+    height: 35px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .mini-button{
     width: 70px;
     height: 30px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .black{
