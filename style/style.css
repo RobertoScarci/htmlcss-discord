@@ -39,10 +39,6 @@ body{
     margin: 0 auto;
 }
 
-.dashed-test{
-    border: 2px dashed black;
-}
-
 .columns{
     padding: 3rem 0;
 }
@@ -66,19 +62,17 @@ body{
 }
 
 .column-70{
-    background-color: #20b1a9 ;
     width: 70%;
     height: 500px;
+    padding-left: 1.5rem;
 }
 
 .column-30{
-    background-color: #ef7f7f;
     height: 500px;
     width: 30%;
 }
 
 .column-quarters{
-    border: 2px dashed white;
     width: calc(100% / 4);
 }
 
@@ -93,7 +87,7 @@ body{
 
 header{
     background-image: url(../img/jumbo.png);
-    
+    background-size: cover;
 }
 
 section.navigation{
@@ -156,14 +150,46 @@ div > h2{
     padding-bottom: 1.5rem;
 }
 
-div > h3{
+.stelline{
     background-image: url(../img/stars.svg);
     padding-bottom: 3rem;
+}
+
+footer{
+    color: white;
+}
+
+.links h3, h4{
+    color: lightslategray;
+    padding-top: 2rem;
+}
+
+.links h3{
+    font-size: 45px;
+    padding-bottom: 1rem;
+}
+
+.links h4{
+    font-size: 20px;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 2rem 0;
+    text-align: left;
+}
+
+footer ul li{
+    padding: .5rem 0;
 }
 
 div > p{
     padding-bottom: 1rem;
     font-size: 22px;
+}
+
+i{
+    color: white;
 }
 
 footer{
@@ -182,7 +208,27 @@ section.links{
 }
 
 div.button{
-    background-color: #feb5c0;
     height: 2rem;
     padding: .25rem .5rem;
+}
+
+.button{
+    width: 200px;
+    height: 28px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.mini-button{
+    width: 70px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+button.lightblue{
+    background-color: lightskyblue;
+    color: white;
 }
