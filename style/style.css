@@ -26,7 +26,7 @@ body{
 }
 
 .container{
-    max-width: 1050px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -44,16 +44,14 @@ body{
 }
 
 .column{
-    height: 400px;
+    height: 500px;
 }
 
 .column-big{
-    background-color: #1e8ffe;
     width: 60%;
 }
 
 .column-small{
-    background-color: #febfca;
     width: 40%;
 }
 
@@ -91,7 +89,6 @@ body{
 
 header{
     background-image: url(../img/jumbo.png);
-    
 }
 
 section.navigation{
@@ -101,7 +98,6 @@ section.navigation{
 
 
 header section.navigation > div{
-    
     color: white;
 }
 
@@ -147,11 +143,17 @@ div.jumbotron{
 
 div > h1{
     padding: 1.5rem 0;
-    font-size: 45px;
+    font-size: 50px;
+}
+
+div > h2{
+    font-size: 50px;
+    padding-bottom: 1.5rem;
 }
 
 div > p{
-    padding-bottom: .8rem;
+    padding-bottom: 1rem;
+    font-size: 22px;
 }
 
 footer{
